@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+}
+
+.tool-bar {
+    background-color: #09342e;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    color: whitesmoke;
+}
+
+.header-name {
+    font-family: "Yu Gothic UI Semibold";
+    margin-left: 35px;
+    color: whitesmoke;
+}
+
+footer {
+    background-color: #09342e;
+    margin: 0;
+    height: 6.8vh;
+}
+
+footer li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    color: whitesmoke;
+}
+
+.hover:hover {
+    box-shadow: 0 8px 16px 0 black, 0 6px 20px 0 black;
+
+}
+
+.old-warrior {
+    width: 464px;
+    height: 662px;
+    opacity: 0.5;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.main-bg {
+    background-color: #07342e;
+}
+
+hr {
+    border: none;
+    background-color: whitesmoke;
+    height: 5px;
+}
+
+p {
+    color: whitesmoke;
+    margin-left: 30px;
+}
+
+.sec-2{
+    background-color: #07342e;
+}
+
+.but-hobby {
+    background-color: #07342e;
+    color: whitesmoke;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.but-hover:hover {
+    box-shadow: 0 8px 16px 0 black, 0 6px 20px 0 black;
+}
+
+.logo:hover {
+    box-shadow: 0 8px 16px 0 black, 0 6px 20px 0 black;
+
+}
+
+.link {
+    float: right;
+    color: whitesmoke;
+    font-size: 16px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.wep {
+    width: 564px;
+    height: 762px;
+    float: right;
+}
+
+.go-home {
+    float: top;
+    margin-left: 60px;
+    font-size: 32px;
+}
+
+.bg-color {
+}
