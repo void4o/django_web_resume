@@ -1,0 +1,59 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stefan Topuzov</title>
+    <link rel="stylesheet" href="{% static 'resume_page/css/main.css' %}">
+</head>
+<body>
+    <header class="tool-bar">
+        <nav>
+            <a class="link" href="http://127.0.0.1:8000/weapons">Weapons</a>
+            <ul>
+                <li><button class="but-hobby but-hover">Home</button></li>
+                <li><button class="but-hobby but-hover">Hobbies</button></li>
+                <li><button class="but-hobby but-hover">Weapons</button></li>
+            </ul>
+        </nav>
+        <hr class="hr-header">
+        <h1 class="header-name">About me</h1>
+    </header>
+    <section class="main-bg">
+        <p>
+            Etiam non velit a mauris volutpat tristique. Praesent finibus sit amet nibh eget ornare.
+            Vivamus porta nunc nec neque iaculis varius. Phasellus at risus metus. Suspendisse potenti.
+            Donec metus ipsum, aliquam eget blandit eget, pulvinar in quam. In a blandit neque. Maecenas
+            congue vestibulum consectetur. Integer sed lacus ex. Suspendisse non mauris id libero commodo
+            malesuada vel non mi.
+        </p>
+        <img class="old-warrior hover" src="{% static 'resume_page/images/old_warriorc.jpg' %}" alt="Stogesh">
+        <img class="old-warrior hover" src="{% static 'resume_page/images/old_warrior.jpg' %}" alt="Dwarfy">
+        <img class="old-warrior hover" src="{% static 'resume_page/images/knight.jpg' %}" alt="Knighty">
+        <p>
+            Etiam non velit a mauris volutpat tristique. Praesent finibus sit amet nibh eget ornare.
+            Vivamus porta nunc nec neque iaculis varius. Phasellus at risus metus. Suspendisse potenti.
+            Donec metus ipsum, aliquam eget blandit eget, pulvinar in quam. In a blandit neque. Maecenas
+            congue vestibulum consectetur. Integer sed lacus ex. Suspendisse non mauris id libero commodo
+            malesuada vel non mi.
+
+        </p>
+    </section >
+    <section class="sec-2">
+        <img class="old-warrior hover" src="{% static 'resume_page/images/woman_warrior.jpg' %}">
+        <img class="old-warrior hover" src="{% static 'resume_page/images/barbarian.jpg' %}">
+        <img class="old-warrior hover" src="{% static 'resume_page/images/Dunbar.jpg' %}">
+
+    </section>
+    <footer>
+        <hr>
+        <ul>
+            <li>Contacts</li>
+            <li><img class="logo" src="{% static 'resume_page/images/hammer.png' %}"></li>
+            <li><img class="logo" src="{% static 'resume_page/images/axes.png' %}"></li>
+            <li><img class="logo" src="{% static 'resume_page/images/dice.png' %}"></li>
+        </ul>
+    </footer>
+</body>
+</html>
